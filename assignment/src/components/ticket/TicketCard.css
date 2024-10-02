@@ -1,0 +1,81 @@
+
+.ticket-card {
+    width: 320px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Title inside each ticket card */
+  .ticket-card h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling ticket details (priority, status, etc.) */
+  .ticket-card p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Status badge styling */
+  .status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .status-todo {
+    background-color: #ffbf00;
+    color: white;
+  }
+  
+  .status-inprogress {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .status-done {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .status-backlog {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  /* Priority Badge Styling */
+  .priority {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+  
+  .priority-high {
+    background-color: #ff4d4f;
+    color: white;
+  }
+  
+  .priority-medium {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .priority-low {
+    background-color: #1e90ff;
+    color: white;
+  }
+  

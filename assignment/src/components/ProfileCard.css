@@ -1,0 +1,30 @@
+/* Profile.css */
+
+/* Container for profile info in each ticket card */
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Profile image (avatar) styling */
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Assigned user name styling */
+.profile p {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Availability status styling */
+.profile p span {
+  font-size: 0.85em;
+  color: #888;
+  margin-left: 5px;
+}
